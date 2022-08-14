@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    background-color: #fefae0;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: beige;
+}
+
+.main-links ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.main-links li a {
+    text-decoration: none;
+    color: black;
+    margin: 0px 14px;
+}
+
+.main-links li a:hover {
+    color: burlywood;
+}
+
+.main-page {
+    padding: 7%;
+    background-image: linear-gradient(#dda15e, #bc6c25);
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-about {
+    flex-basis: 60%;
+    margin-right: 50px;
+}
+
+.main-about h1 {
+    text-shadow: 0px 0px 2px white;
+}
+
+.main-logo img {
+    border-radius: 100%;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.footer-logo {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+}
+
+.footer-logo i a {
+    text-decoration: none;
+    color: inherit;
+    margin-right: 20px;
+}
+
+.footer-logo .fa-brands:hover {
+    background-color: white;
+    color: blue;
+}
+
+.footer-container h3 {
+    font-size: 10px;
+    text-align: center;
+}
+
+.contact {
+    width: 100%;
+    height: 100%;
+}
+
+.contact h1 {
+    margin: 50px auto 25px;
+}
+
+.contact-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.contact-container form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    gap: 1px;
+    background-color: burlywood;
+    box-shadow: 1px 1px 1px black;
+}
+ 
+.contact-container form * {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    line-height: 10px;
+    box-shadow: 1px 1px 1px black;
+}
+
+.contact-container form button {
+    cursor: pointer;
+}
+
+.contact-container form button:hover {
+    background-color: wheat;
+}
+
+.about-me-container {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-image: linear-gradient(#faedcd, #fefae0 ) ;
+}
+
+.about-me-container  h1{
+    padding-top: 10px;
+}
+
+.about-me-images {
+    width: 100%;
+    height: 450px;
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(#faedcd, #fefae0 ) ;
+}
+
+.about-me-images img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.about-me-images1, .about-me-images2, .about-me-images3 {
+    flex: 1;
+}
